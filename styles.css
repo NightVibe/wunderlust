@@ -52,8 +52,9 @@ table {
 /*largest width*/
 
 body {
-    justify-content: center;
     text-align: center;
+	max-width: 1920px;
+	margin: 0 auto;
   }
 
 header{
@@ -488,6 +489,11 @@ footer a:first-of-type {
 
 /*medium screen width*/
 @media screen and (max-width: 768px){ 
+
+body {
+	max-width: 768px;
+}
+
 header{
 	background-image: linear-gradient(to bottom, #55BCD5, white);
  } 
@@ -647,6 +653,9 @@ section a img{
 
 /*Small screen width*/
 @media screen and (max-width: 428px){
+	body {
+		max-width: 428px;
+	}
 	header{
 	   background-image: linear-gradient(to bottom, #55BCD5, white);
 	}
