@@ -403,10 +403,6 @@ form input:focus, select:focus, textarea:focus{
 	box-shadow: 0 0 0 0.09em currentColor;
 }
 
-form input:error, select:error, textarea:error{
-	background-color: #c71819;
-}
-
 form fieldset{
 	margin: 0.5em auto;
 	padding-bottom: 0.5em;
